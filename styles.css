@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: beige;
+}
+
+.tags{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.tagsPos li{
+    display: inline-block;
+    margin: 15px 20px;
+}
+
+.home{
+    margin-top: 5%;
+}
+
+.home h2{
+    margin-top: 1%;
+}
+
+.home h1{
+    position: relative;
+    bottom: 20%;
+}
+
+.tagsPos a{
+    color: black;
+    font-weight: bolder;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.tagsPos a:hover{
+    color: lightgoldenrodyellow;
+    background-color: salmon;
+    /*background-color: lightsalmon;*/
+}
